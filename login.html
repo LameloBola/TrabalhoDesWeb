@@ -27,23 +27,25 @@
                 <h1>Pizzaria Express</h1>
                 <p>Pizza quentinha, entrega rápida e sabor caseiro para sua casa.</p>
                 <a class="btn" href="home.html">Página Inicial</a>
+                <button class="btn-anterior" onclick="window.location.href='contato.html'">Anterior</button>
             </div>
         </section>
 
         <section class="contato" id="contato">
             <div class="contact-panel">
-                <h2>Login</h2>
+                
                 <p class="disabled-note">Login desabilitado temporariamente para este projeto.</p>
-                <form class="Container" aria-disabled="true">
-                    <label for="email">Email</label>
-                    <input id="email" type="email" placeholder="seu@email.com" disabled>
-
-                    <label for="senha">Senha</label>
-                    <input id="senha" type="password" placeholder="••••••" disabled>
-
-                    <button type="button" disabled>Login</button>
-                    <p class="muted" style="margin-top:10px;">Este formulário é apenas ilustrativo.</p>
-                </form>
+                <form class="Container" action="/login" method="post">
+    
+        <p>Login</p>
+            <label>Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+           
+            <label>Senha:</label><br>
+            <input type="password" id="senha" name="senha" required><br>
+        
+        <button type="submit"><a href="home.html">Login</a></button>
+    </form>
             </div>
         </section>
     </main>
