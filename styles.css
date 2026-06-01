@@ -1,4 +1,4 @@
-.topo{
+.topo {
     position: fixed;
     top: 0;
     left: 0;
@@ -110,7 +110,7 @@ main {
 
 .lista-cardapio {
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
     gap: 20px;
 }
 
@@ -132,6 +132,15 @@ main {
 
 .item-cardapio span {
     font-weight: 700;
+}
+
+.foto-cardapio {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 12px;
 }
 
 .contato p {
