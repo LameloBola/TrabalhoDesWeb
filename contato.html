@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Express</title>
+    <title>Contato | Pizzaria Express</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <script src="script.js"></script>
     <div class="topo">
         <div class="logo-titulo">
             <img src="img/logo_pizzaria.png" alt="Pizza" class="logo">
@@ -14,18 +15,39 @@
         </div>
         <div class="nav-texts">
             <p id="home"><a href="home.html">Página Inicial</a></p>
-            <p id="login"><a href="login.html">Login</a></p>
             <p id="cardapio"><a href="cardapio.html">Cardápio</a></p>
+            <p id="contato"><a href="contato.html">Contato</a></p>
+            <p id="login"><a href="login.html">Login</a></p>
         </div>
-
     </div>
-    
-    <section class="contato" id="contato">
-            <h2>Contato</h2>
-            <p>Telefone: (11) 99999-0000</p>
-            <p>WhatsApp: +55 11 99999-0000</p>
-            <p>Horário: 17h às 23h</p>
+
+    <main>
+        <section class="hero" id="home">
+            <div>
+                <h1>Pizzaria Express</h1>
+                <p>Pizza quentinha, entrega rápida e sabor caseiro para sua casa.</p>
+                <a class="btn" href="cardapio.html">Ver cardápio</a>
+            </div>
         </section>
-    
+
+        <section class="contato" id="contato">
+            <h2>Contato</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <strong>Telefone</strong>
+                    <p>(11) 99999-0000</p>
+                </div>
+                <div class="contact-card">
+                    <strong>WhatsApp</strong>
+                    <p>+55 11 99999-0000</p>
+                </div>
+                <div class="contact-card">
+                    <strong>Horário</strong>
+                    <p>17h às 23h</p>
+                </div>
+            </div>
+            
+        </section>
+    </main>
 </body>
 </html>

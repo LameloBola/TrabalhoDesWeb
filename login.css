@@ -91,11 +91,11 @@ body {
     }
 }
 
-/* Estilos adicionais para página inicial e cardápio */
+/* Estilos prontos para a página inicial e cardápio */
 .topo a,
 .topo a:visited,
 .topo a:active {
-    color: #c21a01;
+    color: #000000;
     text-decoration: none;
 }
 
